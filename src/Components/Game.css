@@ -1,0 +1,125 @@
+
+  
+  .score {
+    text-align: center;
+    padding-top: 20px;
+    color: greenyellow;
+    font-weight: bolder;
+  }
+  
+  .board {
+    position: relative;
+    margin: 50px auto;
+    /* height: 370px;
+    width: 370px; */
+
+    height: 470px;
+    width: 470px;
+    border: 3px solid black;
+    background: linear-gradient(rgb(179, 168, 168), blue);
+    border-radius: 2px;
+  }
+  
+  
+  .head {
+    position: absolute;
+    background-color: rgb(105, 15, 179);
+    height: 4%;
+    width: 4%;
+    border: 1px solid white;
+    border-radius: 40%;
+    z-index: 13;
+  }
+  
+  .snake {
+    position: absolute;
+    background-color: aqua;
+    height: 4%;
+    width: 4%;
+    border: 1px solid white;
+    border-radius: 5px;
+    z-index: 2;
+  }
+  
+  .food {
+    position: absolute;
+    background-color: brown;
+    height: 4%;
+    width: 4%;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  .big-food{
+    height: 5%;
+    width: 5%;
+    background-color: aqua;
+  }
+  
+  .gameOver {
+    position: relative;
+    height: 35%;
+    width: 55%;
+    border: 1px solid gray;
+    top: 30%;
+    left: 22%;
+    text-align: center;
+    background: linear-gradient(rgb(170, 89, 150), rgb(33, 58, 33));
+    padding: 4px;
+    border-radius: 10px;
+    z-index: 10;
+  }
+  
+  .overText {
+    font-size: 2rem;
+    font: bold;
+    /* padding-bottom: 8px; */
+    font-family: 'Press Start 2P';
+  }
+  
+  .overScore {
+    padding: 10px 0;
+    color: rgb(88, 25, 25);
+    margin-bottom: 5px;
+    font-family: 'Press Start 2P';
+  }
+  
+  .playButton {
+    background-color: rgb(16, 73, 148);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 6px 8px;
+    border-radius: 4px;
+    box-shadow: 0 0 4px green;
+  }
+  
+  .playButton:hover {
+    box-shadow: 0 0 4px black;
+  }
+  
+  .formobile{
+    display: none;
+  }
+  
+  @media only screen and (max-width: 600px) {
+  
+  .formobile{
+    display: block;
+    text-align:center;width:100%;
+  }
+  
+  .formobile button{
+    padding: 10px 20px;
+    margin: 9px;
+    border-radius: 9px;
+    border: none;
+  }
+  
+  .left{
+    margin-right: 100px;
+  }
+  .right{
+    margin-left: 10px;
+  }
+  }
