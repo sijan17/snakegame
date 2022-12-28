@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/snakegame/static/css/main.7af97576.css",
+    "main.js": "/snakegame/static/js/main.487b2a2b.js",
+    "static/js/845.acf262ed.chunk.js": "/snakegame/static/js/845.acf262ed.chunk.js",
+    "static/js/787.c5159145.chunk.js": "/snakegame/static/js/787.c5159145.chunk.js",
+    "static/media/gameover.mp3": "/snakegame/static/media/gameover.25ffc265dc59e21b7c4c.mp3",
+    "static/media/move.mp3": "/snakegame/static/media/move.f6661b15610ae31d13c6.mp3",
+    "static/media/food.mp3": "/snakegame/static/media/food.5ff4f174b566338e86af.mp3",
+    "index.html": "/snakegame/index.html",
+    "main.7af97576.css.map": "/snakegame/static/css/main.7af97576.css.map",
+    "main.487b2a2b.js.map": "/snakegame/static/js/main.487b2a2b.js.map",
+    "845.acf262ed.chunk.js.map": "/snakegame/static/js/845.acf262ed.chunk.js.map",
+    "787.c5159145.chunk.js.map": "/snakegame/static/js/787.c5159145.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7af97576.css",
+    "static/js/main.487b2a2b.js"
+  ]
+}
